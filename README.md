@@ -17,16 +17,60 @@ cat-dog-svm Task 3/
 
 ---
 
-## 🔧 Requirements
+---
 
-- Python 3.8+
-- Libraries:
-  - `numpy`
-  - `opencv-python`
-  - `scikit-learn`
-  - `joblib`
-  - `matplotlib` (optional)
+## 🛠️ Technologies Used
 
-To install dependencies:
-```bash
-pip install -r requirements.txt
+- Python
+- Scikit-learn (SVM)
+- OpenCV (cv2)
+- NumPy
+- Matplotlib
+
+---
+
+## 🧠 Model Summary
+
+- **Model Used:** Support Vector Machine (SVC from scikit-learn)
+- **Features:** Images are resized to 64x64 grayscale and flattened into a 1D array.
+- **Training Data:** Labeled set of cat and dog images.
+- **Test Prediction:** On unseen images.
+
+---
+
+## 📊 Sample Predictions
+
+Below are sample predictions made by the SVM model on test images:
+
+### 🐶 Dog Prediction
+
+![Dog Prediction](Sample_1output.png)
+*Prediction: Dog 🐶*
+
+---
+
+### 🐱 Cat Prediction
+
+![Cat Prediction](Sample_3output.png)
+*Prediction: Cat 🐱*
+
+
+---
+
+- 📷 Description: A white cat sitting in front of a dark background.
+- 🧠 **Prediction by Model:** `Cat`
+- ✅ **Result:** Correct
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prashantyadav12/PRODIGY_ML_03.git
+   cd cat-dog-svm\ Task\ 3
+
+✍️ Author
+Prashant Yadav
+B.Tech CSE (AI)
+GitHub: @prashantyadav12
